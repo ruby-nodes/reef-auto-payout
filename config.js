@@ -1,14 +1,11 @@
 module.exports = {
-  nodeWS: 'wss://kusama-rpc.polkadot.io',
-  denom: 'KSM',
-  decimalPlaces: 12,
-  validator: 'GTzRQPzkcuynHgkEHhsPBFpKdh4sAacVRsnd8vYfPpTMeEY',
+  nodeWS: 'wss://rpc.reefscan.com/ws',
+  denom: 'REEF',
+  decimalPlaces: 18,
+  validator: '5DvoL2BNoSm7wRt2tfZ6WW5QFrxm68GLv5SCrPQ4JBLjbvpL',
   validators: [
-    'GTzRQPzkcuynHgkEHhsPBFpKdh4sAacVRsnd8vYfPpTMeEY', // 🤖 POLKASTATS
-    'EPStAMtjApGg8Ap6xKe9gyuinjmetz1MNhzu1cPmLQkWKUA', // 🤖 POLKASTATS/2
-    'DSpbbk6HKKyS78c4KDLSxCetqbwnsemv2iocVXwNe2FAvWC', // DRAGONSTAKE 🐲
-    'DSA55HQ9uGHE5MyMouE8Geasi2tsDcu3oHR4aFkJ3VBjZG5', // DRAGONSTAKE 🐲/02
-    'J4XkgJjMP6c1pqneV5KogJvJLM1qReXP9SAMJt33prnDdwB', // DRAGONSTAKE 🐲/03
+    '5Dsed6sNwpaVER5oMWsk1VFxQDnd8G5dshWiFxqYSUcMdUGR',
+    '5GL5v1HenVPbB6rvtFjKpUcECe1Ag3398KdZZRefXM53t9ch'
   ],
   password: '',
   accountJSON: './keystores/account.json',
